@@ -93,13 +93,18 @@ nav {
   justify-content: space-between;
 }
 .boxes {
-  margin: 3rem 2rem;
+  margin: 3rem 2rem 0rem 2rem;
   width: 30%;
   border: 4px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+}
+.boxes.left {
+  margin-left: 0px;
+}
+.boxes.right {
+  margin-right: 0px;
 }
 .pen {
   background-image: url("../images/pen.png");
@@ -139,4 +144,51 @@ nav {
   color: white;
   width: 100%;
   padding: 0.5rem 0rem;
+}
+.buttons {
+  width: 960px;
+  padding: 3rem 0rem 4rem 0rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.title {
+  display: flex;
+  color: white;
+  padding: 1rem 2rem;
+  justify-content: flex-start;
+  background-color: black;
+}
+.title span {
+  display: flex;
+  color: black;
+  background-color: white;
+  justify-content: flex-start;
+  margin-bottom: 4rem;
+}
+.hours .title {
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+}
+footer {
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+  display: flex;
+}
+footer span{
+  width:960px;
+  height: 10rem;
+  color: white;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  margin: auto;
 }
